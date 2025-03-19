@@ -18,11 +18,9 @@ def init_db():
 
 init_db()
 
-
-
 @app.route('/')
 def home_page():
-    return '<h2>Minha página com Flask</h2>'
+    return '<h1>Livraria - Vai Na Web</h1>' '<h2>A maior e melhor livraria do Brasil.</h2>''<p>Comunidade dedicada para doação e leitura de livros.</p>'  '<p>Juntos iremos revolucionar a educação no Brasil!.</p>'
 
 @app.route("/doar", methods=['POST'])
 def doar():
